@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/4ndreSha/JS-React-Tasks/issues"
   },
-  "homepage": "https://github.com/4ndreSha/JS-React-Tasks#readme",
+  "homepage": "https://4ndreSha.github.io/JS-React-Tasks",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -33,6 +33,7 @@
     "@types/react-dom": "^18.3.0",
     "babel-loader": "^9.1.3",
     "css-loader": "^7.1.2",
+    "gh-pages": "^6.1.1",
     "html-webpack-plugin": "^5.6.0",
     "style-loader": "^4.0.0",
     "typescript": "^5.5.2",

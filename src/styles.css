@@ -12,3 +12,19 @@ header {
     flex-direction: column;
     margin-left: 20px;
 }
+
+.task-number {
+    margin-bottom: 20px;
+}
+
+.main {
+    margin-left: 10px;
+    background-color: antiquewhite;
+    max-width: 400px;
+    min-height: 200px;
+    padding: 10px;
+}
+
+.message {
+    margin-top: 10px;
+}

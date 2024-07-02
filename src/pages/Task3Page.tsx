@@ -11,10 +11,12 @@ import InputNumber from '../components/Task3/InputNumber';
 
 function Task3Page() {
   return (
-    <section class="main">
-      <div class="task-number">Task 3</div>
-      <InputNumber />
-    </section>
+    <>
+      <section class="main">
+        <div class="task-number">Task 3</div>
+        <InputNumber />
+      </section>
+    </>
   );
 }
 

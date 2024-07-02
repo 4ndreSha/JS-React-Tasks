@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {App} from './App';
 import {HashRouter, Routes, Route} from 'react-router-dom';
-import Task1Page from './pages/task1';
-import Task2Page from './pages/task2';
-import Task3Page from './pages/task3';
+import Task1Page from './pages/Task1Page';
+import Task2Page from './pages/Task2Page';
+import Task3Page from './pages/Task3Page';
 import Home from './pages/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root')!);

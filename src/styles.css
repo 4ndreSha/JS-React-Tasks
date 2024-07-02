@@ -1,16 +1,24 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 header {
-    margin: 20px;
+    margin: 20px 0px;
+    text-align: center;
 }
 
 .link {
-    font-size: 24px;
+    font-size: 22px;
     text-decoration: none;
+    color: rgb(42, 0, 77);
 }
 
 .task-list {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    gap: 3px;
 }
 
 .task-number {
@@ -18,13 +26,26 @@ header {
 }
 
 .main {
-    margin-left: 10px;
-    background-color: antiquewhite;
-    max-width: 400px;
-    min-height: 200px;
+    margin: auto;
+    background-color: rgb(245, 220, 228);
+    max-width: 440px;
+    min-width: 200px;
+    min-height: 150px;
     padding: 10px;
+    outline: 1px;
 }
 
 .message {
     margin-top: 10px;
+}
+
+.collapse-button {
+    border: none;
+    background: none;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+.wrapped-text {
+    width: 440px;
 }

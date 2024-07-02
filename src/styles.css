@@ -49,3 +49,7 @@ header {
 .wrapped-text {
     width: 440px;
 }
+
+.hint-text {
+    margin-top: 5px;
+}

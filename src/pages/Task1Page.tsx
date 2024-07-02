@@ -7,11 +7,16 @@
 // которое введено в input.
 
 import React from 'react';
+import UserForm from '../components/Task1/UserForm';
 
 function Task1Page() {
   return (
     <>
-      <div>Task 1</div>
+      <section class="main">
+        <div class="task-number">Task 1</div>
+        <UserForm />
+        <div class="hint-text">*check console</div>
+      </section>
     </>
   );
 }
